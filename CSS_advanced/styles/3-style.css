@@ -1,6 +1,6 @@
 /* Task 3: Variables and custom properties */
 :root {
-    --color-primary: #D73953;
+    --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #FFFFFF;
     --color-light-gray: #f3f3f3;
@@ -15,11 +15,11 @@ html {
 
 /* Task 2: Style the body element */
 body {
-    color: #161616;
+    color: var(--text-color);
 }
 
 a {
-    color:#161616
+    color: var(--text-color);
 }
 
 .visually-hidden {
@@ -27,9 +27,9 @@ a {
 }
 
 .card-category {
-    color: #D73953;
+    color: var(--color-primary);
 }
 
 .section-tagline {
-    color: #D73953;
+    color: var(--color-primary);
 }
