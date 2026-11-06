@@ -1,7 +1,3 @@
-/* Task 3: Variables and custom properties */
-/* Task 4: Font family variables and heading styles */
-/* Task 5: Font size variables and html/body font configurations */
-/* Task 6: Font weight variables and font-weight rules */
 /* Task 7: Integrate Google Fonts Open Sans and Raleway into variables */
 :root {
     --color-primary: #d73953;
@@ -21,13 +17,11 @@
     --font-weight-bold: 700;
 }
 
-/* Task 1: Smooth scrolling on the html element */
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
-/* Task 2: Style the body element */
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);

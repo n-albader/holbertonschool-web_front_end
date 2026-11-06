@@ -8,12 +8,10 @@
     --text-color: var(--color-black);
 }
 
-/* Task 1: Smooth scrolling on the html element */
 html {
     scroll-behavior: smooth;
 }
 
-/* Task 2: Style the body element */
 body {
     color: var(--text-color);
 }

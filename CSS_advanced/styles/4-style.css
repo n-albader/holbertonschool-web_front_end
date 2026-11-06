@@ -1,5 +1,4 @@
 /* Task 4: Font family variables and heading styles */
-/* Task 3: Variables and custom properties */
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -11,12 +10,10 @@
     --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Task 1: Smooth scrolling on the html element */
 html {
     scroll-behavior: smooth;
 }
 
-/* Task 2: Style the body element */
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
