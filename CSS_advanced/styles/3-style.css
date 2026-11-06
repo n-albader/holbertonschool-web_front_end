@@ -1,0 +1,35 @@
+/* Task 3: Variables and custom properties */
+:root {
+    --color-primary: #D73953;
+    --color-black: #090909;
+    --color-white: #FFFFFF;
+    --color-light-gray: #f3f3f3;
+    --color-dark-gray: #353535;
+    --text-color: var(--color-black);
+}
+
+/* Task 1: Smooth scrolling on the html element */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Task 2: Style the body element */
+body {
+    color: #161616;
+}
+
+a {
+    color:#161616
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.card-category {
+    color: #D73953;
+}
+
+.section-tagline {
+    color: #D73953;
+}
