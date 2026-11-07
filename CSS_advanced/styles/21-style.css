@@ -532,7 +532,7 @@ ul.row {
 }
 
 /* Task 21: Simplify col- selectors in styles/21-style.css */
-[class^="col"] {
+[class^="col-"] {
     float: left;
     padding: 0.5rem;
 }
