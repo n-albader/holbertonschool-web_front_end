@@ -441,7 +441,7 @@ a:active {
 }
 
 /* Task 22: Add dark theme rules in styles/22-style.css */
-.section[data-section-theme="dark"] {
+[data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color:var(--color-black);
